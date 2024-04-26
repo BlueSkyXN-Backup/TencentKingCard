@@ -1,0 +1,191 @@
+{
+    "id": "gsonhub.application.prod",
+    "name": "@gsonhub的应用订阅v=prod.nel1",
+    "author": "@gsonhub",
+    "apps": [
+        {
+            "id": "gson.prod.10010",
+            "name": "中国联通",
+            "descs_html": [
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10010.log'>查看日志</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick=\"axios.get('http://10010.json/action=send_code')\">发送验证码</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick=\"axios.get('http://10010.json/action=login')\">验证码登录</a>"
+            ],
+            "scripts": [
+                {
+                    "name": "中国联通流量查询",
+                    "script": "https://charming-gnome-9c9592.netlify.app/unicom.js?v=nel1"
+                }
+            ],
+            "keys": [
+                "gsonhub.10010.mobile",
+                "gsonhub.10010.appId",
+                "gsonhub.10010.password",
+                "gsonhub.10010.cookie",
+                "gsonhub.10010.smscode",
+                "gsonhub.10010.login_num",
+                "gsonhub.10010.mute"
+            ],
+
+            "author": "@gsonhub",
+            "settings": [
+                {
+                    "id": "gsonhub.10010.mobile",
+                    "name": "手机号",
+                    "val": "",
+                    "type": "text",
+                    "desc": "手机号"
+                },
+                {
+                    "id": "gsonhub.10010.smscode",
+                    "name": "验证码",
+                    "val": "",
+                    "type": "text",
+                    "desc": "验证码"
+                },
+                {
+                    "id": "gsonhub.10010.password",
+                    "name": "密码",
+                    "val": "",
+                    "type": "text",
+                    "desc": "密码"
+                },
+                {
+                    "id": "gsonhub.10010.mute",
+                    "name": "禁音模式",
+                    "val": false,
+                    "type": "boolean"
+                }
+            ]
+        },
+        {
+            "id": "gson.prod.10000",
+            "name": "中国电信",
+            "descs_html": [
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
+            ],
+            "scripts": [
+                {
+                    "name": "中国电信流量查询",
+                    "script": "https://charming-gnome-9c9592.netlify.app/telecom.js?v=nel1"
+                }
+            ],
+            "keys": [
+                "gsonhub.10000.mobile",
+                "gsonhub.10000.password",
+                "gsonhub.10000.token",
+                "gsonhub.10000.mute",
+                "gsonhub.10000.vvv_flow",
+                "gsonhub.10000.login_num",
+                "gsonhub.10000.login_info"
+            ],
+
+            "author": "@gsonhub",
+            "settings": [
+                {
+                    "id": "gsonhub.10000.mobile",
+                    "name": "手机号",
+                    "val": "",
+                    "type": "text",
+                    "desc": "手机号"
+                },
+                {
+                    "id": "gsonhub.10000.password",
+                    "name": "密码",
+                    "val": "",
+                    "type": "text",
+                    "desc": "密码"
+                },
+                {
+                    "id": "gsonhub.10000.mute",
+                    "name": "禁音模式",
+                    "val": false,
+                    "type": "boolean"
+                }
+            ]
+        },
+        {
+            "id": "gson.prod.cloud",
+            "name": "筋斗云",
+            "descs_html": [
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://cloud.log'>查看筋斗云日志</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://pingan.log'>查看平安白云日志</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看中国电信日志</a>"
+            ],
+            "scripts": [
+                {
+                    "name": "筋斗云签到",
+                    "script": "https://charming-gnome-9c9592.netlify.app/cloud.js?v=nel1"
+                }
+            ],
+            "keys": [
+                "gsonhub.cloud.ip_list",
+                "gsonhub.cloud.domain_url",
+                "gsonhub.cloud.login_cookie",
+                "gsonhub.cloud.mute"
+            ],
+            "author": "@gsonhub",
+            "settings": [
+                {
+                    "id": "gsonhub.cloud.mute",
+                    "name": "禁音模式",
+                    "val": false,
+                    "type": "boolean"
+                }
+            ]
+        },
+        {
+            "id": "gson.prod.baiduwp",
+            "name": "百度网盘直连",
+            "descs_html": [
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://baiduwp.log'>查看日志</a>",
+                "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
+            ],
+            "scripts": [
+                {
+                    "name": "百度网盘直链",
+                    "script": "https://charming-gnome-9c9592.netlify.app/baiduwp.js?v=nel1"
+                }
+            ],
+            "keys": [
+                "gsonhub.baiduwp.user_agent",
+                "gsonhub.baiduwp.mute",
+                "gsonhub.baiduwp.aria_ip",
+                "gsonhub.baiduwp.is_aria2"
+            ],
+
+            "author": "@gsonhub",
+            "settings": [
+                {
+                    "id": "gsonhub.baiduwp.user_agent",
+                    "name": "User-Agent",
+                    "val": "",
+                    "type": "text",
+                    "desc": "User-Agent"
+                },
+                {
+                    "id": "gsonhub.baiduwp.is_aria2",
+                    "name": "aria2下载",
+                    "val": false,
+                    "type": "boolean"
+                },
+                {
+                    "id": "gsonhub.baiduwp.aria2_ip",
+                    "name": "aria2-RPC地址",
+                    "val": "",
+                    "type": "text",
+                    "desc": "aria2-RPC地址"
+                },
+                {
+                    "id": "gsonhub.baiduwp.mute",
+                    "name": "禁音模式",
+                    "val": false,
+                    "type": "boolean"
+                }
+            ]
+        }
+    ]
+}
