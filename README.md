@@ -1,7 +1,7 @@
 # TencentKingCard
 TXDWK，从 https://www.laosu.xyz/forum.php?mod=viewthread&amp;tid=3165 抄的
 
-```我在20240424偶然搜到这个帖子，当时是1月发的贴子，20240428再次打开时发现原帖被删除，有点意思```
+```我在20240424偶然搜到这个帖子，当时是1月发的贴子，20240428再次打开时发现原帖被删除，有点意思，然后重新检查了下，还能打开另外一个URL，有点奇怪 https://www.laosu.xyz/forum.php?mod=viewthread&tid=3165，有点像AMP的问题```
 
 发现了原作者的仓库 https://github.com/gsons/boxjs 和新地址 https://charming-gnome-9c9592.netlify.app/tencent.conf
 # TXDWK
